@@ -4,13 +4,11 @@
 
 import ru_local as ru
 
-
 def main():
     '''
     Main function.
     :return: None
     '''
-
 
 purchase = input(ru.COUNT_SMARTPHONES_AND_HEADPHONES)
 num_smartphones, num_headphones = map(int, purchase.split())
